@@ -5,4 +5,21 @@
 782 -> 8
 918 -> 1 */
 
+Console.Clear();
 
+Console.WriteLine("Введите трёхзначное число ");
+
+int num = int.Parse(Console.ReadLine()!);
+
+int num2 = num % 10;
+int num3 = ((num - num2) / 10) %10;
+
+if(num > 99 && num < 1000)
+{
+Console.WriteLine(num3);
+}
+
+else
+{
+  Console.WriteLine("Вы ввели НЕ трёхзначное число!");
+}
