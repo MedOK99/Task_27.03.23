@@ -7,13 +7,13 @@
 
 Console.Clear();
 
-Console.WriteLine("Введите число:  ");
+Console.WriteLine("Введите цифру дня недели:  ");
 
 string day = Console.ReadLine();
 
 int d = int.Parse(day);
 
-if (d == 1)
+/*if (d == 1)
 {
   Console.WriteLine("НЕТ");
 }
@@ -52,4 +52,14 @@ else
 {
   if(d > 7)
   Console.WriteLine("Нет такого дня недели");
+}*/
+
+if (d > 0 && d < 6)
+{
+  Console.WriteLine($"{d} -> Нет");
 }
+if (d > 5 && d < 8)
+{
+  Console.WriteLine($"{d} -> Да");
+}
+
