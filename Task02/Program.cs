@@ -15,8 +15,8 @@ int num = int.Parse(Console.ReadLine());
 
 if (num > 99)
 {
-  string thirdNumber = Convert.ToString(num);
-  Console.WriteLine("Третья цифра этого числа -> " + thirdNumber[2]);
+  string indexNumber = Convert.ToString(num);
+  Console.WriteLine("Третья цифра этого числа -> " + indexNumber[2]);
 }
 else
 {
