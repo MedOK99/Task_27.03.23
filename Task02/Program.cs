@@ -13,10 +13,10 @@ Console.WriteLine("Введите число ");
 
 int num = int.Parse(Console.ReadLine());
 
-
-if(num >99)
+if (num > 99)
 {
-  Console.WriteLine();
+  string thirdNumber = Convert.ToString(num);
+  Console.WriteLine("Третья цифра этого числа -> " + thirdNumber[2]);
 }
 else
 {
