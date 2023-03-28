@@ -7,3 +7,20 @@
 
 32679 -> 6  */
 
+Console.Clear();
+
+Console.WriteLine("Введите число ");
+
+int num = int.Parse(Console.ReadLine());
+
+
+if(num >99)
+{
+  Console.WriteLine();
+}
+else
+{
+  Console.WriteLine($"У заданного числа {num} -> третьей цифры нет");
+}
+
+
